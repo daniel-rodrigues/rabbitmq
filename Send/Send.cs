@@ -5,7 +5,7 @@ namespace Send
 {
     class Send
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             var factory = new ConnectionFactory() { HostName = "localhost" };
             using (var connection = factory.CreateConnection())
